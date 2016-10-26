@@ -336,9 +336,9 @@ span.imageset {
 	padding-top: 9px;
 }
 .imageset.icon_topic_reported {
-	background-image: url("./images/icon_topic_reported.gif");
-	padding-left: 16px;
-	padding-top: 14px;
+	background-image: url("./images/icon_topic_reported.png");
+	padding-left: 18px;
+	padding-top: 16px;
 }
 .imageset.icon_topic_deleted {
 	background-image: url("./images/icon_topic_deleted.png");
@@ -346,9 +346,9 @@ span.imageset {
 	padding-top: 14px;
 }
 .imageset.icon_topic_unapproved {
-	background-image: url("./images/icon_topic_unapproved.gif");
-	padding-left: 16px;
-	padding-top: 14px;
+	background-image: url("./images/icon_topic_unapproved.png");
+	padding-left: 18px;
+	padding-top: 16px;
 }
 .imageset.icon_topic_poll {
 	background-image: url("./images/icon_topic_poll.gif");
