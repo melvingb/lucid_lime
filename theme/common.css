@@ -175,7 +175,6 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
 .site-description h1 {
 	margin-right: 0;
 	margin-top: 36px; 
-	max-height: 65px;
 }
 
 /* Round cornered boxes and backgrounds
@@ -1104,7 +1103,6 @@ ul.linklist:after,
 	font-family: Arial, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	text-align: left;
-	text-shadow: 1px 1px 1px white;
 	text-transform: uppercase;
 	line-height: 3em;
 	border-bottom: 1px solid;
