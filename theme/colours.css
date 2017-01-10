@@ -388,9 +388,12 @@ dl.faq dt {
 ----------------------------------------*/
 /* Quote block */
 blockquote {
-	background-color: #EBEADD;
+	color: #CCCCCC;
+	background-color: #222222;
 	background-image: url("./images/quote.gif");
-	border-color:#DBDBCE;
+	background-position: 5px 3px;
+	border-left: 4px solid #404040;
+	border-bottom: 1px solid #404040;
 }
 
 .rtl blockquote {
@@ -399,12 +402,16 @@ blockquote {
 
 blockquote blockquote {
 	/* Nested quotes */
-	background-color:#EFEED9;
+	background-color: #262626;
+	border-left: 4px solid #444444;
+	border-bottom: 1px solid #444444;
 }
 
 blockquote blockquote blockquote {
 	/* Nested quotes */
-	background-color: #EBEADD;
+	background-color: #262626;
+	border-left: 4px solid #484848;
+	border-bottom: 1px solid #484848;
 }
 
 /* Code block */
@@ -1071,8 +1078,8 @@ input.disabled {
 /* jQuery popups
 ---------------------------------------- */
 .phpbb_alert {
-	background-color: #FFFFFF;
-	border-color: #999999;
+	background-color: #000000;
+	border-color: #b1e051;
 }
 
 .darken {
@@ -1154,6 +1161,11 @@ ul.linklist li.responsive-menu a.responsive-menu-link:hover:before, ul.linklist 
 
 li.notification-reported strong, li.notification-disapproved strong {
 	color: #D31141;
+}
+
+.badge {
+	background-color: #D31141;
+	color: #ffffff;
 }
 
 .dropdown-extended .header .header_settings a {

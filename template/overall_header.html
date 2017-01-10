@@ -58,6 +58,10 @@
 	<link href="{T_THEME_PATH}/plupload.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet">
 <!-- ENDIF -->
 
+<!-- IF S_COOKIE_NOTICE -->
+	<link href="{T_ASSETS_PATH}/cookieconsent/cookieconsent.min.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet">
+<!-- ENDIF -->
+
 <!--[if lte IE 9]>
 	<link href="{T_THEME_PATH}/tweaks.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet">
 <![endif]-->
@@ -77,6 +81,7 @@
 	<a id="top" class="top-anchor" accesskey="t"></a>
 	<div id="page-header">
 		<div class="headerbar" role="banner">
+		<!-- EVENT overall_header_headerbar_before -->
 			<div class="inner">
 
 			<div id="site-description" class="site-description">
@@ -103,8 +108,10 @@
 				</form>
 			</div>
 			<!-- ENDIF -->
-
+			<!-- EVENT overall_header_searchbox_after -->
 			</div>
+			
+		<!-- EVENT overall_header_headerbar_after -->	
 		</div>
 		<!-- EVENT overall_header_navbar_before -->
 		<!-- INCLUDE navbar_header.html -->
